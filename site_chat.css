@@ -5,15 +5,21 @@ body {
 li{
     display: inline;
     background-color: violet;
-    border: 1px 10px solid ;
+    padding: 5px;
+    margin-left: 3px;
 }
 
-nav, div{
+a:link{
+    list-style-type: none;
+}
+
+
+nav, #div1{
     background-color: aliceblue;
     margin: 1%;
 }
 
-div{
+#div1{
     box-shadow: 10px 10px grey;
     padding: 1%;
 }
@@ -22,10 +28,13 @@ img{
     margin: 1%;
 }
 
-.flx{
+.cadre{
     display: flex;
 }
 
+.souscadre2{
+    margin:1%;
+}
 footer p{
     text-align: center;
 }
